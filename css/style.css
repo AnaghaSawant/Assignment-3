@@ -1,0 +1,474 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
+</style> 
+
+
+.main
+{
+  float: none;
+  clear: both;
+}
+
+div header
+{
+  border-top: solid 1px white;
+  list-style-type: none;
+  background: #585858;
+  overflow: hidden;
+  text-align: center;
+  padding: 7px;
+  text-decoration: none;
+  font-size: 15px; 
+  line-height: 5px;
+}
+
+header li:first-child
+{
+position: relative;
+top: -4px;
+right: 10px;
+}
+
+div .art p
+{
+  color: white;
+  font-size: 10px;
+  position: relative;
+  right: 815px;
+  bottom: 0px;
+  top: 20px;
+}
+
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+li 
+{
+  float: left;
+}
+
+li a 
+   {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+   }
+
+
+
+#top
+{
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 50%;
+}
+
+
+#bottom 
+{
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 50%;
+}
+
+#top 
+{
+  top: 0;
+  background-image: url(/home/anagha/Downloads/images/background.jpg);
+}
+
+h2
+{
+  position: relative;
+  font-size: 30px;
+  margin: 4px;
+  padding: 5px 5px;
+  color: white;
+  top: 110px;
+  left: 60px;
+}
+
+h4
+{
+  position: relative;
+  font-size: 21px;
+  margin: 4px;
+  padding: 5px 5px;
+  color: white;
+  top: 90px;
+  left: 60px;
+}
+
+#bottom 
+{
+  bottom: 0;
+  background-image: white;
+}
+
+
+div #g1
+{
+ position: relative;
+ font-weight: 200i;
+  left:260px;
+  top:35px;
+  bottom:0px;
+  vertical-align: top;
+    display: inline-block;
+ text-align: center;
+width: 100px;
+
+}
+
+div #b1
+{
+position: relative;
+  left:310px;
+  top:35px;
+  bottom:0px;
+  vertical-align: top;
+    display: inline-block;
+ text-align: center;
+width: 100px;
+  
+}
+
+div #y1
+{
+position: relative;
+  left:380px;
+  top:35px;
+  bottom:0px;
+  vertical-align: top;
+    display: inline-block;
+ text-align: center;
+width: 100px;
+}
+
+div #p1
+{
+position: relative;
+  left:420px;
+  top:35px;
+  bottom:0px;
+  vertical-align: top;
+    display: inline-block;
+ text-align: center;
+width: 100px;
+}
+
+div h6
+{
+  position: relative;
+  left:20px;
+  top:35px;
+  bottom:0px;
+  display: inline-block;
+}
+
+
+h3 
+{
+  position: relative;
+  font-size: 1.0em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  left: 0px;
+  bottom: 10px;
+}
+
+
+.button2 
+{
+  position: relative;
+  background-color: #e7e7e7; 
+  border-radius: 4px;
+  color: black;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  left: 55px;
+  top: 120px;
+}
+
+.button3 
+{
+  position: relative;
+  background-color: #FF8C00;
+  border-radius: 4px;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  left: 60px;
+  top: 120px;
+}
+
+
+
+.box-orange 
+{
+  position: relative;  
+  background: url(/home/anagha/Downloads/images/image_left.png);
+  width: 100px;
+  height: 170px;
+  bottom:120px;        
+  left: 1110px; 
+}
+
+.box-red
+{
+  position: relative;  
+  background: url(/home/anagha/Downloads/images/image_middle.png);
+  width: 130px;
+  height: 90px;
+  bottom:290px;        
+  left: 970px; 
+}
+
+.box-paint
+{
+  position: relative;  
+  background: url(/home/anagha/Downloads/images/image_left-04.png);
+  width: 100px;
+  height: 70px;
+  bottom:360px;        
+  left: 860px; 
+}
+
+.box-grey
+{
+ margin-top: -10px;
+margin-left: -18px;
+}
+
+.grey {
+background: #DCDCDC;
+  border: 1px solid #DCDCDC;
+border-radius: 50%;
+width: 25px;
+height: 25px;
+overflow: hidden;
+position: absolute;
+padding: 30px;  
+left: 290px;
+top: 60px;
+text-align: center;
+vertical-align: middle;
+}
+
+.box-blue
+{
+ margin-top: -10px;
+margin-left: -18px; 
+}
+
+.blue
+{
+background: #DCDCDC;
+  border: 1px solid #DCDCDC;
+border-radius: 50%;
+width: 25px;
+height: 25px;
+overflow: hidden;
+position: absolute;
+padding: 30px;  
+left: 450px;
+top: 60px;
+text-align: center;
+vertical-align: middle;
+}
+
+.box-yellow
+{
+margin-top: -10px;
+margin-left: -18px; 
+}
+
+.yellow
+{
+background: #DCDCDC;
+  border: 1px solid #DCDCDC;
+border-radius: 50%;
+width: 25px;
+height: 25px;
+overflow: hidden;
+position: absolute;
+padding: 30px;  
+left: 610px;
+top: 60px;
+text-align: center;
+vertical-align: middle; 
+}
+
+.box-pink
+{
+  margin-top: -10px;
+margin-left: -18px; 
+
+}
+
+.pink
+{
+background: #DCDCDC;
+  border: 1px solid #DCDCDC;
+border-radius: 50%;
+width: 25px;
+height: 25px;
+overflow: hidden;
+position: absolute;
+padding: 30px;  
+left: 770px;
+top: 60px;
+text-align: center;
+vertical-align: middle;
+}
+
+div footer 
+{
+   list-style-type: none;
+   height: 5em;
+   position: relative;
+   z-index: 1;
+   background-color: #DCDCDC;
+   top: 65px;
+}
+
+
+.facebook
+{
+background: #696969;
+  border: 1px solid #696969;
+border-radius: 50%;
+width: 6px;
+height: 6px;
+overflow: hidden;
+position: absolute;
+padding: 15px;  
+left: 1080px;
+top: 5px;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.box-facebook
+{
+
+  margin-top: -10px;
+margin-left: -14px;
+  }
+
+
+.twitter
+{
+background: #696969;
+  border: 1px solid #696969;
+border-radius: 50%;
+width: 6px;
+height: 6px;
+overflow: hidden;
+position: absolute;
+padding: 15px;  
+left: 1130px;
+top: 5px;
+text-align: center;
+vertical-align: middle;
+}
+
+.box-twitter
+{
+  margin-top: -10px;
+margin-left: -14px;
+}
+
+
+
+.pics
+{
+background: #696969;
+  border: 1px solid #696969;
+border-radius: 50%;
+width: 6px;
+height: 6px;
+overflow: hidden;
+position: absolute;
+padding: 15px;  
+left: 1180px;
+top: 5px;
+text-align: center;
+vertical-align: middle;
+}
+
+
+.box-pics
+{
+ margin-top: -10px;
+margin-left: -14px; 
+}
+
+
+
+.google
+{
+background: #696969;
+  border: 1px solid #696969;
+border-radius: 50%;
+width: 6px;
+height: 6px;
+overflow: hidden;
+position: absolute;
+padding: 15px;  
+left: 1230px;
+top: 5px;
+text-align: center;
+vertical-align: middle;
+
+}
+
+
+.box-google
+{
+  margin-top: -10px;
+margin-left: -14px;
+}
+
+div p
+{
+  font-size: 13px;
+  position: relative;
+  right: 400px;
+  bottom: 0px;
+  top: 40px;
+}
+
+div .terms p
+{
+  font-size: 13px;
+  position: relative;
+  right: 60px;
+  bottom: 0px;
+  top: 10px;
+}
+
+
+
+
