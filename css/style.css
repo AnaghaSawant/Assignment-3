@@ -1,7 +1,63 @@
-<style>
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
-</style> 
 
+@font-face {
+font-family: "Source Sans Pro";
+src: url("../Assignment-3/css/font/SourceSansPro-Black.otf")format("opentype"); 
+}
+
+@font-face {
+font-family: "Source Sans Pro";
+src: url("../Assignment-3/css/font/SourceSansPro-BlackIt.otf")format("opentype");
+}    
+
+@font-face {
+font-family: "Source Sans Pro";
+url("../Assignment-3/css/font/SourceSansPro-Bold.otf")format("opentype");
+}
+
+@font-face {
+font-family: "Source Sans Pro";
+src: url("../Assignment-3/css/font/SourceSansPro-BoldIt.otf")format("opentype")
+}
+
+@font-face {
+font-family: "Source Sans Pro"; 
+src: url("../Assignment-3/css/font/SourceSansPro-ExtraLight.otf")format("opentype")
+}
+
+@font-face {
+font-family: "Source Sans Pro";
+src: url("../Assignment-3/css/font/SourceSansPro-ExtraLightIt.otf")format("opentype");
+}
+
+@font-face {
+font-family: "Source Sans Pro";
+src: url("../Assignment-3/css/font/SourceSansPro-It.otf")format("opentype");
+}
+
+@font-face {
+font-family: "Source Sans Pro";
+src: url("../Assignment-3/css/font/SourceSansPro-Light.otf")format("opentype");
+}
+
+@font-face {
+font-family: "Source Sans Pro";
+src: url("../Assignment-3/css/font/SourceSansPro-LightIt.otf")format("opentype");
+}
+
+@font-face {
+font-family: "Source Sans Pro";
+src: url("../Assignment-3/css/font/SourceSansPro-Regular.otf")format("opentype"); 
+}
+
+@font-face {
+font-family: "Source Sans Pro";
+src: url("../Assignment-3/css/font/SourceSansPro-Semibold.otf")format("opentype");
+}
+
+@font-face {
+font-family: "Source Sans Pro";
+src: url("../Assignment-3/css/font/SourceSansPro-SemiboldIt.otf")format("opentype");
+}
 
 .main
 {
@@ -26,7 +82,7 @@ header li:first-child
 {
 position: relative;
 top: -4px;
-right: 10px;
+right: 15px;
 }
 
 div .art p
@@ -34,7 +90,7 @@ div .art p
   color: white;
   font-size: 10px;
   position: relative;
-  right: 815px;
+  right: 809px;
   bottom: 0px;
   top: 20px;
 }
@@ -119,53 +175,53 @@ h4
 
 div #g1
 {
- position: relative;
- font-weight: 200i;
-  left:260px;
+  position: relative;
+  font-weight: 200i;
+  left:310px;
   top:35px;
   bottom:0px;
   vertical-align: top;
-    display: inline-block;
- text-align: center;
-width: 100px;
+  display: inline-block;
+  text-align: center;
+  width: 100px;
 
 }
 
 div #b1
 {
-position: relative;
-  left:310px;
+  position: relative;
+  left:375px;
   top:35px;
   bottom:0px;
   vertical-align: top;
-    display: inline-block;
- text-align: center;
-width: 100px;
+  display: inline-block;
+  text-align: center;
+  width: 100px;
   
 }
 
 div #y1
 {
-position: relative;
-  left:380px;
+  position: relative;
+  left:450px;
   top:35px;
   bottom:0px;
   vertical-align: top;
-    display: inline-block;
- text-align: center;
-width: 100px;
+  display: inline-block;
+  text-align: center;
+  width: 100px;
 }
 
 div #p1
 {
-position: relative;
-  left:420px;
+  position: relative;
+  left:520px;
   top:35px;
   bottom:0px;
   vertical-align: top;
-    display: inline-block;
- text-align: center;
-width: 100px;
+  display: inline-block;
+  text-align: center;
+  width: 100px;
 }
 
 div h6
@@ -180,6 +236,9 @@ div h6
 
 h3 
 {
+  font-family: 'Source Sans Pro', Bold;
+  font-weight:normal;
+  font-style:normal;
   position: relative;
   font-size: 1.0em;
   letter-spacing: -1px;
@@ -202,8 +261,8 @@ h3
   display: inline-block;
   font-size: 12px;
   margin: 4px 2px;
-  left: 55px;
-  top: 120px;
+  left: 69px;
+  top: 105px;
 }
 
 .button3 
@@ -218,8 +277,8 @@ h3
   display: inline-block;
   font-size: 12px;
   margin: 4px 2px;
-  left: 60px;
-  top: 120px;
+  left: 74px;
+  top: 105px;
 }
 
 
@@ -257,89 +316,89 @@ h3
 .box-grey
 {
  margin-top: -10px;
-margin-left: -18px;
+ margin-left: -18px;
 }
 
-.grey {
-background: #DCDCDC;
+.grey 
+{
+  background: #DCDCDC;
   border: 1px solid #DCDCDC;
-border-radius: 50%;
-width: 25px;
-height: 25px;
-overflow: hidden;
-position: absolute;
-padding: 30px;  
-left: 290px;
-top: 60px;
-text-align: center;
-vertical-align: middle;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  position: absolute;
+  padding: 30px;  
+  left: 340px;
+  top: 60px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .box-blue
 {
  margin-top: -10px;
-margin-left: -18px; 
+ margin-left: -18px; 
 }
 
 .blue
 {
-background: #DCDCDC;
+  background: #DCDCDC;
   border: 1px solid #DCDCDC;
-border-radius: 50%;
-width: 25px;
-height: 25px;
-overflow: hidden;
-position: absolute;
-padding: 30px;  
-left: 450px;
-top: 60px;
-text-align: center;
-vertical-align: middle;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  position: absolute;
+  padding: 30px;  
+  left: 510px;
+  top: 60px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .box-yellow
 {
-margin-top: -10px;
-margin-left: -18px; 
+  margin-top: -10px;
+  margin-left: -18px; 
 }
 
 .yellow
 {
-background: #DCDCDC;
+  background: #DCDCDC;
   border: 1px solid #DCDCDC;
-border-radius: 50%;
-width: 25px;
-height: 25px;
-overflow: hidden;
-position: absolute;
-padding: 30px;  
-left: 610px;
-top: 60px;
-text-align: center;
-vertical-align: middle; 
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  position: absolute;
+  padding: 30px;  
+  left: 680px;
+  top: 60px;
+  text-align: center;
+  vertical-align: middle; 
 }
 
 .box-pink
 {
   margin-top: -10px;
-margin-left: -18px; 
-
+  margin-left: -18px; 
 }
 
 .pink
 {
-background: #DCDCDC;
+  background: #DCDCDC;
   border: 1px solid #DCDCDC;
-border-radius: 50%;
-width: 25px;
-height: 25px;
-overflow: hidden;
-position: absolute;
-padding: 30px;  
-left: 770px;
-top: 60px;
-text-align: center;
-vertical-align: middle;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  position: absolute;
+  padding: 30px;  
+  left: 850px;
+  top: 60px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 div footer 
@@ -355,100 +414,90 @@ div footer
 
 .facebook
 {
-background: #696969;
+  background: #696969;
   border: 1px solid #696969;
-border-radius: 50%;
-width: 6px;
-height: 6px;
-overflow: hidden;
-position: absolute;
-padding: 15px;  
-left: 1080px;
-top: 5px;
-text-align: center;
-vertical-align: middle;
-
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  overflow: hidden;
+  position: absolute;
+  padding: 15px;  
+  left: 1080px;
+  top: 5px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .box-facebook
 {
-
   margin-top: -10px;
-margin-left: -14px;
-  }
-
+  margin-left: -14px;
+}
 
 .twitter
 {
-background: #696969;
+  background: #696969;
   border: 1px solid #696969;
-border-radius: 50%;
-width: 6px;
-height: 6px;
-overflow: hidden;
-position: absolute;
-padding: 15px;  
-left: 1130px;
-top: 5px;
-text-align: center;
-vertical-align: middle;
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  overflow: hidden;
+  position: absolute;
+  padding: 15px;  
+  left: 1130px;
+  top: 5px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .box-twitter
 {
   margin-top: -10px;
-margin-left: -14px;
+  margin-left: -14px;
 }
-
-
 
 .pics
 {
-background: #696969;
+  background: #696969;
   border: 1px solid #696969;
-border-radius: 50%;
-width: 6px;
-height: 6px;
-overflow: hidden;
-position: absolute;
-padding: 15px;  
-left: 1180px;
-top: 5px;
-text-align: center;
-vertical-align: middle;
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  overflow: hidden;
+  position: absolute;
+  padding: 15px;  
+  left: 1180px;
+  top: 5px;
+  text-align: center;
+  vertical-align: middle;
 }
-
 
 .box-pics
 {
  margin-top: -10px;
-margin-left: -14px; 
+ margin-left: -14px; 
 }
-
-
 
 .google
 {
-background: #696969;
+  background: #696969;
   border: 1px solid #696969;
-border-radius: 50%;
-width: 6px;
-height: 6px;
-overflow: hidden;
-position: absolute;
-padding: 15px;  
-left: 1230px;
-top: 5px;
-text-align: center;
-vertical-align: middle;
-
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  overflow: hidden;
+  position: absolute;
+  padding: 15px;  
+  left: 1230px;
+  top: 5px;
+  text-align: center;
+  vertical-align: middle;
 }
-
 
 .box-google
 {
   margin-top: -10px;
-margin-left: -14px;
+  margin-left: -14px;
 }
 
 div p
