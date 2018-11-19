@@ -1,62 +1,62 @@
 
 @font-face {
 font-family: "Source Sans Pro";
-src: url("../Assignment-3/css/font/SourceSansPro-Black.otf")format("opentype"); 
+src: url("font/SourceSansPro-Black.otf")format("opentype"); 
 }
 
 @font-face {
 font-family: "Source Sans Pro";
-src: url("../Assignment-3/css/font/SourceSansPro-BlackIt.otf")format("opentype");
+src: url("font/SourceSansPro-BlackIt.otf")format("opentype");
 }    
 
 @font-face {
 font-family: "Source Sans Pro";
-url("../Assignment-3/css/font/SourceSansPro-Bold.otf")format("opentype");
+url("font/SourceSansPro-Bold.otf")format("opentype");
 }
 
 @font-face {
 font-family: "Source Sans Pro";
-src: url("../Assignment-3/css/font/SourceSansPro-BoldIt.otf")format("opentype")
+src: url(font/SourceSansPro-BoldIt.otf")format("opentype")
 }
 
 @font-face {
 font-family: "Source Sans Pro"; 
-src: url("../Assignment-3/css/font/SourceSansPro-ExtraLight.otf")format("opentype")
+src: url("font/SourceSansPro-ExtraLight.otf")format("opentype")
 }
 
 @font-face {
 font-family: "Source Sans Pro";
-src: url("../Assignment-3/css/font/SourceSansPro-ExtraLightIt.otf")format("opentype");
+src: url("font/SourceSansPro-ExtraLightIt.otf")format("opentype");
 }
 
 @font-face {
 font-family: "Source Sans Pro";
-src: url("../Assignment-3/css/font/SourceSansPro-It.otf")format("opentype");
+src: url("font/SourceSansPro-It.otf")format("opentype");
 }
 
 @font-face {
 font-family: "Source Sans Pro";
-src: url("../Assignment-3/css/font/SourceSansPro-Light.otf")format("opentype");
+src: url("font/SourceSansPro-Light.otf")format("opentype");
 }
 
 @font-face {
 font-family: "Source Sans Pro";
-src: url("../Assignment-3/css/font/SourceSansPro-LightIt.otf")format("opentype");
+src: url("font/SourceSansPro-LightIt.otf")format("opentype");
 }
 
 @font-face {
 font-family: "Source Sans Pro";
-src: url("../Assignment-3/css/font/SourceSansPro-Regular.otf")format("opentype"); 
+src: url("font/SourceSansPro-Regular.otf")format("opentype"); 
 }
 
 @font-face {
 font-family: "Source Sans Pro";
-src: url("../Assignment-3/css/font/SourceSansPro-Semibold.otf")format("opentype");
+src: url("font/SourceSansPro-Semibold.otf")format("opentype");
 }
 
 @font-face {
 font-family: "Source Sans Pro";
-src: url("../Assignment-3/css/font/SourceSansPro-SemiboldIt.otf")format("opentype");
+src: url("font/SourceSansPro-SemiboldIt.otf")format("opentype");
 }
 
 .main
@@ -141,7 +141,7 @@ li a
 #top 
 {
   top: 0;
-  background-image: url(/home/anagha/Downloads/images/background.jpg);
+  background-image: url(images/background.jpg);
 }
 
 h2
@@ -237,8 +237,8 @@ div h6
 h3 
 {
   font-family: 'Source Sans Pro', Bold;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
   position: relative;
   font-size: 1.0em;
   letter-spacing: -1px;
@@ -286,7 +286,7 @@ h3
 .box-orange 
 {
   position: relative;  
-  background: url(/home/anagha/Downloads/images/image_left.png);
+  background: url(images/image_left.png);
   width: 100px;
   height: 170px;
   bottom:120px;        
@@ -296,7 +296,7 @@ h3
 .box-red
 {
   position: relative;  
-  background: url(/home/anagha/Downloads/images/image_middle.png);
+  background: url(images/image_middle.png);
   width: 130px;
   height: 90px;
   bottom:290px;        
@@ -306,7 +306,7 @@ h3
 .box-paint
 {
   position: relative;  
-  background: url(/home/anagha/Downloads/images/image_left-04.png);
+  background: url(images/image_left-04.png);
   width: 100px;
   height: 70px;
   bottom:360px;        
